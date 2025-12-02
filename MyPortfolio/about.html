@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Karthika</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Karthika<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills & Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container about-page">
+    <section class="about-hero">
+      <div class="about-card">
+        <img src="assets/profile.jpg" alt="Karthika" class="about-photo" />
+        <div class="bio">
+          <h1>Hello — I'm <span>Karthika</span></h1>
+          <p class="long">
+            I am an undergraduate B.Tech student at Sri Eshwar College of Engineering with strong foundations in electronics, programming, and machine learning.
+            My interests lie at the intersection of human-centered AI and embedded systems — I love building accessible interfaces and practical solutions that can actually be used by people.
+          </p>
+
+          <p class="long">
+            I spend my time experimenting with Python, C/C++, JavaScript, STM32 microcontrollers, and web frameworks. I thrive in team projects and enjoy mentoring junior students on development and contest strategies.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="assets/resume.pdf" download>Download CV</a>
+            <a class="btn ghost" href="projects.html">See Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline">
+      <h2>Education & Timeline</h2>
+      <ol>
+        <li>
+          <strong>2024 — 2028</strong>
+          <p>B.Tech (AI & DS), Sri Eshwar College of Engineering — CGPA: 8.34 (ongoing)</p>
+        </li>
+        <li>
+          <strong>2022 — 2024</strong>
+          <p>HSC — Bharani Park Matric Higher Secondary School — 92.83%</p>
+        </li>
+        <li>
+          <strong>2021 — 2022</strong>
+          <p>SSLC — Bharani Park Matric Higher Secondary School — 93.2%</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="long-read">
+      <h2>About my approach & skills</h2>
+      <p>
+        I follow an outcome-driven approach: define the user's pain, prototype quickly, iterate with feedback, and ship lightweight, reliable systems. When developing DysLearning, I focused on modular lessons, audio support and adaptive content so that learners could progress at their own pace.
+      </p>
+
+      <p>
+        For the VisionScan retinal analysis project, I worked with image preprocessing pipelines and model integration to make detection accessible via a web interface. I document thoroughly and write testing suites when possible — I value reproducibility and maintainability.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <strong>Karthika K</strong> — Portfolio</span>
+      <div class="small-links"><a href="assets/resume.pdf" target="_blank">Resume (PDF)</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Chatbase embed -->
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ouz_wJKoOtrLyBRKV_hjp";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Karthika</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Karthika<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+    <section class="contact-hero">
+      <div>
+        <h1>Get in touch</h1>
+        <p>I'm open to internships, mentorship and collaborative projects. Share a brief about your idea and I'll reply quickly.</p>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h4>Email</h4>
+            <p><a href="mailto:karthikha2007@gmail.com">karthikha2007@gmail.com</a></p>
+          </div>
+          <div class="card">
+            <h4>Phone</h4>
+            <p><a href="tel:+919362392433">+91 9362392433</a></p>
+          </div>
+          <div class="card">
+            <h4>Location</h4>
+            <p>Coimbatore, India</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+        <label>Name <input name="name" required /></label>
+        <label>Email <input type="email" name="email" required /></label>
+        <label>Message <textarea name="message" rows="6" required></textarea></label>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="note">This form is static — replace with your preferred backend or service (EmailJS, Formspree) to receive messages.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <strong>Karthika K</strong></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Chatbase embed -->
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ouz_wJKoOtrLyBRKV_hjp";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Karthika K — Portfolio</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Typed.js for typing headline -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Karthika<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills & Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="name-hero">Hi, I'm <span>Karthika K</span></h1>
+        <h2 class="typed-line"></h2>
+        <p class="lead">
+          I'm an ambitious Electronics &amp; Communication undergraduate (B.Tech) passionate about AI-enabled assistive systems, embedded design, and full-stack web development.
+          I design accessible learning platforms, low-cost health-care detectors, and interactive data-driven applications. I enjoy turning ideas into working prototypes and writing clean, maintainable code.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="about.html">About Me</a>
+          <a class="btn ghost" href="projects.html">View Projects</a>
+        </div>
+
+        <div class="stats">
+          <div>
+            <strong>CGPA</strong>
+            <span>8.34 (up to 2nd Sem)</span>
+          </div>
+          <div>
+            <strong>College</strong>
+            <span>Sri Eshwar College of Engineering</span>
+          </div>
+          <div>
+            <strong>Domains</strong>
+            <span>AI · Embedded · Web · Data</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="profile-border"></div>
+          <img src="assets/profile.jpg" alt="Karthika" class="profile-photo" />
+          <div class="profile-info">
+            <h3>Karthika K</h3>
+            <p>Electronics Student • AI & Embedded Developer</p>
+            <div class="profile-links">
+              <a href="https://github.com/karthika" target="_blank">Github</a>
+              <a href="https://www.linkedin.com/in/karthika-k" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card">
+          <h4>Featured project</h4>
+          <p><strong>DysLearning</strong> — AI-powered adaptive web platform for dyslexic learners; multimedia modules, progress tracking and personalized reading support.</p>
+          <a class="btn small" href="projects.html#dyslearning">Explore project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINI SECTIONS (animated entrances) -->
+    <section class="highlights container">
+      <article class="glass">
+        <h3>1400+ solved problems</h3>
+        <p>Active problem solver on competitive platforms; comfortable with algorithm design and optimization.</p>
+      </article>
+      <article class="glass">
+        <h3>Multiple Certifications</h3>
+        <p>Courses in DBMS, Python, Data Structures, JS and AI — practical, project-based learning.</p>
+      </article>
+      <article class="glass">
+        <h3>Hackathons & Awards</h3>
+        <p>Winner / Finalist across college and inter-college events for detection and AI projects.</p>
+      </article>
+    </section>
+
+    <!-- QUICK CONTACT -->
+    <section class="get-in-touch container">
+      <div>
+        <h3>Let's build something together</h3>
+        <p>Hiring for internships or collaborations on AI/embedded/web projects? Reach out — I respond fast.</p>
+      </div>
+      <div>
+        <a class="btn primary" href="contact.html">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <strong>Karthika K</strong> — Engineering Student • Built with ❤️</span>
+      <div class="small-links"><a href="assets/resume.pdf" target="_blank">Download Resume (PDF)</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Chatbase embed (your snippet) -->
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ouz_wJKoOtrLyBRKV_hjp";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>

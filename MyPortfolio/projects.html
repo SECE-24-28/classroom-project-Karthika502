@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Karthika</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Karthika<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="skills.html">Skills & Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="projects-hero">
+      <h1>Selected Projects</h1>
+      <p class="subtitle">A snapshot of work that mixes AI, embedded systems and web full-stack development.</p>
+    </section>
+
+    <section id="dyslearning" class="project">
+      <div class="project-left">
+        <h2>DysLearning — AI-Powered Dyslexia Learning Platform <span class="tag">Nov 2025</span></h2>
+        <p>
+          Developed an accessible web platform to assist dyslexic learners. The platform features:
+        </p>
+        <ul>
+          <li>Audio-visual learning modules with progress tracking</li>
+          <li>AI-based content adaptation: simplified text and highlighted reading guides</li>
+          <li>Admin dashboard for monitoring student progress and performance</li>
+        </ul>
+        <p><strong>Tech:</strong> React, Node.js, Python, TensorFlow Lite, PostgreSQL</p>
+      </div>
+      <div class="project-right">
+        <div class="card mock-preview">
+          <img src="assets/profile.jpg" alt="dyslearning mock" />
+        </div>
+      </div>
+    </section>
+
+    <section id="expense" class="project">
+      <div class="project-left">
+        <h2>Expense Tracker — Java App for Personal Finance <span class="tag">Sep 2025</span></h2>
+        <p>
+          A Java-based application to record and categorize daily expenses, with interactive dashboards and persistent storage. Focus was on UX for quick entry and secure local storage.
+        </p>
+        <p><strong>Tech:</strong> Java, SQLite, JavaFX</p>
+      </div>
+      <div class="project-right">
+        <div class="card code-snippet">
+          <pre><code>public void addExpense(String desc, double amount) {
+  // validate and store expense...
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="visionscan" class="project">
+      <div class="project-left">
+        <h2>VisionScan — AI Retinal Disease Detector <span class="tag">May 2025</span></h2>
+        <p>
+          Integrated deep learning model to analyze retinal scans and detect conditions such as diabetic retinopathy and glaucoma. Built a web interface for easy uploading and quick results, with an emphasis on interpretability and accessibility.
+        </p>
+        <p><strong>Tech:</strong> Python, OpenCV, Flask, Keras</p>
+      </div>
+      <div class="project-right">
+        <div class="card demo">
+          <img src="assets/profile.jpg" alt="vision mock" />
+        </div>
+      </div>
+    </section>
+
+    <section class="more-projects">
+      <h3>Other work & mini-projects</h3>
+      <ul>
+        <li>Mini OS tasks: STM32 CubeMX configuration and microcontroller firmware for sensors.</li>
+        <li>Competitive coding: 1400+ problems solved across platforms; practice-focused algorithms.</li>
+        <li>Teaching & mentoring: guided peers in introductory web development and C programming.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <strong>Karthika K</strong></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Chatbase embed -->
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ouz_wJKoOtrLyBRKV_hjp";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>
